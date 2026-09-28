@@ -4,5 +4,5 @@ print("List of odd numbers:", odd)
 odd_num = [1,3,5,7,9,11,33,55,77,99]
 print(odd_num)
 fruits = ["apple", "banana", "pear", "grapes", "strawberry"]
-capital_fruits = [fruit for fruit in fruits if fruit[0].isupper()]
+capital_fruits = [fruit.capitalize() for fruit in fruits]
 print(capital_fruits)
